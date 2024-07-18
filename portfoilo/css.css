@@ -1,0 +1,319 @@
+:root
+{
+    --primary-color:#09A9C6;
+    --secondry-color:#707882;
+    --min-size:font-family:'lato',sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+}
+body
+{
+    font-family: var(--min-size);
+    background-image: url(/background/2.jpg);
+}
+.navbar
+{
+    background-color:#3c4d5a;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+    font: 1.2em sans-serif;
+}
+ul,li{list-style: none;}
+
+.box-container .coial a
+{
+    color: black;
+}
+.navbar .navbar-container
+{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar .navbar-container .navbar-items ul li 
+{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar .navbar-container .navbar-barnd a
+{
+    font-size: 4rem;
+    transition: color 2s ease-in-out;
+
+}
+
+.navbar .navbar-container .navbar-barnd a:hover
+{
+    color:#554E76;
+
+}
+
+
+
+.navbar .navbar-container .navbar-items ul li a
+{
+ font-style: unset;
+ transition: all 0.8s ease-in-out;
+}
+
+.navbar .navbar-container .navbar-items ul li a:hover
+{
+ background-color:#0A79D9;
+ padding: 10px;
+ border-radius: 20px;
+}
+.container{width: 75%;
+margin: 0 auto;
+}
+.showcase
+{
+    background-image: url(background/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 50px;
+    height: 40rem;
+
+
+}
+.experience .container
+{
+    background-image: linear-gradient(to right,#fafafa ,#c9c9c9);
+    width: 100%;
+    padding: 10px;
+}
+.About .container
+{
+
+    background-image: linear-gradient(to right,#fafafa ,#c9c9c9);
+width: 100%;
+padding: 10px;
+}
+hr
+{
+    width: 20%;
+    margin: 16px auto;
+    border: 3px solid  #D17B25;
+    border-radius: 20px;
+    
+}
+p
+{
+    font-size: 1.7rem;
+    width: 60%;
+    margin: 5px auto;
+    
+
+}
+
+.About button
+{
+width: 150px;
+padding: 10px;
+font-size: 1.5rem;
+border: none;
+
+border:4px #09A9C6 solid;
+border-radius: 30px;
+transition: ease-in-out;
+transition: transform 0.4s ease-out;
+
+}
+.About button:hover
+{
+    transform: translate(30px);
+
+background-image:linear-gradient(to right,#FF7145,#2F72FF);
+
+
+
+}
+
+.About .container h2,
+.experience .container 
+h2,.Skills .container 
+h2,.account .container h2
+{
+    border-radius: 30px;
+    margin-top: 15px;
+
+ font-size:3.2rem}
+.box-container
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 2rem;
+    align-items: center;
+
+
+
+}
+.box
+{
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.box i
+{
+  color: #a83636;
+
+
+}
+.showcase button
+{
+
+    display: flex;
+    border: 1.5px #D17B25 solid;
+    padding: 15px;
+    border-radius: 30px;
+    background-color:#0A79D9;
+    font-size: 1rem;
+    color: aliceblue;
+    transition: all 1.3s ease-in;
+
+}
+
+
+
+.showcase  button:hover
+{
+    background-color: #D17B25;
+    border: 1.5px #0A79D9 solid;
+}
+
+
+
+
+    .Skills .container h2,.account h2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+     }
+
+section .container 
+     {
+background-image: linear-gradient(to right,#fafafa ,#c9c9c9);
+width: 100%;
+padding: 10px;
+
+}
+.box-container
+{}
+
+    .coial a{
+        text-decoration: none;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        font-size: 1rem;
+        color: black;
+        opacity: 1;
+        margin-top: 28px;
+        text-align: center; 
+        font-size: 1.5rem;
+      
+        }
+
+
+
+        .coial a:hover
+        {
+          
+            transition: 0.5s;
+        }
+        .coial a:hover i         {
+           background-color: rgb(255, 255, 255);
+           border-radius: 50%;
+        }
+
+    
+
+        .coial a:hover .whatsapp     {
+            background-color:#36A856;
+            
+         }
+         .coial a:hover .facebook      {
+            background-color:#0866FF;
+          
+         }
+         .coial a:hover .linkedin      {
+            background-color:#0A66C2;
+           
+         }
+         
+         .coial a:hover .instagram      {
+            background-color:#FF006A;
+            
+         }
+        
+         .coial a:hover .twitter     {
+            background-color: #1D9BF0;
+            
+         }
+         .coial a:hover .github     {
+            background-color: #F6F8FA;
+            
+         }
+
+.account  button 
+{
+    
+    height: 60px;
+    display: block;
+    margin: 10px;
+    font-size: 2rem;
+    width: 200px; 
+    margin-bottom: 10px;
+    border-radius: 20px;   
+    border: 1.5px #2fc8ae solid;
+    padding: 15px;
+    background-color:#0A79D9;
+    font-size: 1.5rem;
+    color: aliceblue;
+    transition: all 1.3s ease-in;
+    transition: transform 0.4s ease-in-out;
+
+}
+
+.account  button:hover 
+{
+    transform: translate(30px,-10px);
+    /* transform: skewX(20deg); */
+    background-image: linear-gradient(to right,#FF7145,#2F72FF);
+
+}
+
+
+
+
+
+
+.account .container
+{
+ width: 100%;
+background-image: url(background/55.jpg);  
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+

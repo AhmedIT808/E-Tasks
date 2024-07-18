@@ -1,0 +1,53 @@
+
+
+html,body{
+
+    height: 100%; margin: 0;
+}
+.caculator
+{
+    border: 1px solid black;
+    background-color: black;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 10px 30px;
+    border-radius: 10px;
+}
+.screen
+{
+    color: aliceblue;
+    display:flex;
+    justify-content: end;
+    align-items: end;
+    padding: 5px;
+    font-size: 2rem;
+    margin: 20px 10px 20px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+
+}
+.control
+{
+    display: flex;
+    justify-content: center;
+}
+.btn
+{
+    flex: auto;
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+.bt{background-color: gray;}
+.b{background-color:orangered;}

@@ -1,0 +1,21 @@
+
+table
+{
+    margin: 0 auto;
+    width: 70%;
+    border: 5px solid rgb(60, 149, 99);
+    text-align: center;
+}
+th
+{
+    background-color: cadetblue;
+}
+td{border: 1px solid black;}
+.Gmail{background-color: aqua;
+
+}
+
+
+.right{text-align: left;
+}
+
