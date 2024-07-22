@@ -1,0 +1,52 @@
+
+
+
+
+h1{
+    text-align: center;
+    letter-spacing: 10px;
+}
+.container
+{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+     margin: 10px;
+     padding: 20px;
+}
+.btn1
+{
+ margin-right: 10px;
+background-image:  linear-gradient(to right, rgb(0, 123, 255), rgb(255, 193, 7));
+width: 50px;
+height: 20px;
+border: solid 1.8px gold;
+}
+.btn2
+{
+ margin-left: 10px;
+ background-image:  linear-gradient(to right, rgb(255, 239, 213), rgb(54, 151, 161));
+width: 50px;
+height: 20px;
+border: solid 1.8px gold;
+}
+
+
+.btn3
+{
+ margin-top: 50px;
+ background-color: black;
+width: 50px;
+height: 50px;
+border: solid 1.8px gold;
+border-radius: 50%;
+color: aliceblue;
+
+}
+.non
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
